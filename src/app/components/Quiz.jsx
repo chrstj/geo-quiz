@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import FlagCard from "./FlagCard";
 
 const Quiz = ({ continentFlags }) => {
@@ -48,7 +48,7 @@ const Quiz = ({ continentFlags }) => {
     setIsQuizOver(false);
     setFeedback("");
     setFeedbackColor("black");
-    setQuizStarted(false); // Reset to show the start button again
+    setQuizStarted(false);
   };
 
   return (

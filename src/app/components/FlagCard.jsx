@@ -6,12 +6,12 @@ const FlagCard = ({ flag, onAnswer }) => {
   const handleSubmit = () => {
     const isCorrect = userAnswer.toLowerCase() === flag.name.toLowerCase();
     onAnswer(isCorrect, flag.name);
-    setUserAnswer(""); // Reset the input field after submission
+    setUserAnswer("");
   };
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
-      handleSubmit(); // Trigger the submit function if Enter is pressed
+      handleSubmit();
     }
   };
 
@@ -20,8 +20,8 @@ const FlagCard = ({ flag, onAnswer }) => {
       style={{
         display: "flex",
         flexDirection: "column",
-        alignItems: "center", // Centers the flag, input, and button horizontally
-        justifyContent: "center", // Centers the flag, input, and button vertically (optional)
+        alignItems: "center",
+        justifyContent: "center",
         marginBottom: "20px",
       }}
     >
@@ -31,24 +31,24 @@ const FlagCard = ({ flag, onAnswer }) => {
         style={{
           width: "300px",
           height: "200px",
-          marginBottom: "20px", // Adds space between the flag and input
+          marginBottom: "20px",
         }}
       />
       <input
         type='text'
         value={userAnswer}
         onChange={(e) => setUserAnswer(e.target.value)}
-        onKeyDown={handleKeyDown} // Listen for key presses in the input field
+        onKeyDown={handleKeyDown}
         style={{
           padding: "10px",
           border: "1px solid #ccc",
           borderRadius: "5px",
-          marginBottom: "10px", // Space between input and button
+          marginBottom: "10px",
           color: "black",
         }}
       />
       <button
-        onClick={handleSubmit} // Add onClick to trigger handleSubmit when button is clicked
+        onClick={handleSubmit}
         style={{
           padding: "10px 20px",
           backgroundColor: "#007bff",
