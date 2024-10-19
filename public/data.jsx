@@ -36,7 +36,7 @@ export const flagData = [
     image: "/images/asia/Flag_of_Brunei.svg",
   },
   {
-    name: "Cambodia",
+    name: "Kambodsja",
     continent: "Asia",
     image: "/images/asia/Flag_of_Cambodia.svg",
   },
@@ -81,7 +81,7 @@ export const flagData = [
     image: "/images/asia/Flag_of_Iran.svg",
   },
   {
-    name: "Iraq",
+    name: "Irak",
     continent: "Asia",
     image: "/images/asia/Flag_of_Iraq.svg",
   },
@@ -121,7 +121,7 @@ export const flagData = [
     image: "/images/asia/Flag_of_Laos.svg",
   },
   {
-    name: "Lebanon",
+    name: "Libanon",
     continent: "Asia",
     image: "/images/asia/Flag_of_Lebanon.svg",
   },
@@ -226,7 +226,7 @@ export const flagData = [
     image: "/images/asia/Flag_of_Turkey.svg",
   },
   {
-    name: "Forente_Arabiske_Emirater",
+    name: "De Forente Arabiske Emirater",
     continent: "Asia",
     image: "/images/asia/Flag_of_United_Arab_Emirates.svg",
   },
@@ -532,7 +532,7 @@ export const flagData = [
     image: "/images/europe/Flag_of_Austria.svg",
   },
   {
-    name: "Hviterussland",
+    name: "Belarus",
     continent: "Europe",
     image: "/images/europe/Flag_of_Belarus.svg",
   },
@@ -795,7 +795,7 @@ export const flagData = [
     image: "/images/north-america/Flag_of_Dominica.svg",
   },
   {
-    name: "Dominican Republic",
+    name: "Den Dominikanske Republikk",
     continent: "North America",
     image: "/images/north-america/Flag_of_the_Dominican_Republic.svg",
   },
@@ -840,7 +840,7 @@ export const flagData = [
     image: "/images/north-america/Flag_of_Panama.svg",
   },
   {
-    name: "Saint Kitts and Nevis",
+    name: "Saint Kitts og Nevis",
     continent: "North America",
     image: "/images/north-america/Flag_of_Saint_Kitts_and_Nevis.svg",
   },
@@ -850,12 +850,12 @@ export const flagData = [
     image: "/images/north-america/Flag_of_Saint_Lucia.svg",
   },
   {
-    name: "Saint Vincent and the Grenadines",
+    name: "Saint Vincent og Grenadinene",
     continent: "North America",
     image: "/images/north-america/Flag_of_Saint_Vincent_and_the_Grenadines.svg",
   },
   {
-    name: "Trinidad and Tobago",
+    name: "Trinidad og Tobago",
     continent: "North America",
     image: "/images/north-america/Flag_of_Trinidad_and_Tobago.svg",
   },

@@ -9,25 +9,25 @@ export default function Home() {
       </h3>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 justify-center mx-auto'>
         <Link href='/mix'>
-          <img src='/images/mix.jpg' />
+          <img src='/images/mix.png' />
         </Link>
         <Link href='/europe'>
-          <img src='/images/europe.jpg' />
+          <img src='/images/europe.png' />
         </Link>
         <Link href='/africa'>
-          <img src='/images/africa.jpg' />
+          <img src='/images/africa.png' />
         </Link>
         <Link href='/asia'>
-          <img src='/images/asia.jpg' />
+          <img src='/images/asia.png' />
         </Link>
         <Link href='/north-america'>
-          <img src='/images/north-amerika.jpg' />
+          <img src='/images/north-america.png' />
         </Link>
         <Link href='/south-america'>
-          <img src='/images/south-amerika.jpg' />
+          <img src='/images/south-america.png' />
         </Link>
         <Link href='/oceania'>
-          <img src='/images/oseania.jpg' />
+          <img src='/images/oseania.png' />
         </Link>
       </div>
     </div>

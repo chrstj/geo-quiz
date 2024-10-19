@@ -12,9 +12,8 @@ const Quiz = ({ continentFlags }) => {
   const [quizStarted, setQuizStarted] = useState(false);
 
   const startQuiz = () => {
-    // Shuffle the continent flags and pick 15 random ones
     const shuffledFlags = [...continentFlags].sort(() => 0.5 - Math.random());
-    setFlags(shuffledFlags.slice(0, 12)); // Select 15 random flags for the quiz
+    setFlags(shuffledFlags.slice(0, 12));
     setQuizStarted(true);
   };
 
