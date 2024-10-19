@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import FlagCard from "./flagCard";
+import FlagCard from "./FlagCard";
 
 const Quiz = ({ continentFlags }) => {
   const [flags, setFlags] = useState([]);
